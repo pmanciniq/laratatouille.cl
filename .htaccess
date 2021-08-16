@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^laratatouille\.cl$ [NC]
+RewriteRule ^(.*)$ https://www.laratatouille.cl/$1 [R,L]
